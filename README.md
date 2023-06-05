@@ -12,11 +12,11 @@ proyecto desarrollado como trabajo final de la clase leguajes de programación d
 
 ### funcionalidades del proyecto
 * leer usuarios en la base de datos <img src="verUsuarios2.gif" alt="programa ejecutando la primera función" style="width:48px;height:48px;">
-* buscar usuario con id
-* crear usuario
-* editar información de usuario con id
-* eliminar un usuario
-* detener ejecución
+* buscar usuario con id <img src="Api-rest/función2.gif" alt="programa ejecutando la segunda función" style="width:48px;height:48px;">
+* crear usuario <img src="función3.gif" alt="programa ejecutando la tercera función" style="width:48px;height:48px;">
+* editar información de usuario con id <img src="función4.gif" alt="programa ejecutando la cuarta función" style="width:48px;height:48px;">
+* eliminar un usuario <img src="función5.gif" alt="programa ejecutando la quinta función" style="width:48px;height:48px;">
+* detener ejecución <img src="función6.gif" alt="programa ejecutando la sexta función" style="width:48px;height:48px;">
 
 ## main
 
