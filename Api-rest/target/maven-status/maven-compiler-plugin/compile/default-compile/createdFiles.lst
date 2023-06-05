@@ -1,0 +1,8 @@
+controller\Server.class
+Service\JPAUsers.class
+controller\Autowired.class
+customer\ClienteHTTP.class
+Service\JPAUsersImpl.class
+controller\RequestBody.class
+Main\Main.class
+model\User.class
