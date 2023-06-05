@@ -11,13 +11,7 @@
 proyecto desarrollado como trabajo final de la clase leguajes de programación del pregrado en ingenieria de sistemas. Api-rest simula un servidor donde se le pueden hacer peticiones CRUD para trabajar con una base de datos, todo en un entorno local.
 
 ### funcionalidades del proyecto
-* leer usuarios en la base de datos
-  <video> "verUsuarios2.gif"
-  </video>
-![image2]("verUsuarios2.gif")
-https://docimg.replit.com/images/tutorials/markdown/erm.mp4
-
-
+* leer usuarios en la base de datos <img src="verUsuarios2.gif" alt="programa ejecutando la primera función" style="width:48px;height:48px;">
 * buscar usuario con id
 * crear usuario
 * editar información de usuario con id
