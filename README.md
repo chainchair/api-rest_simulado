@@ -33,10 +33,39 @@ proyecto desarrollado como trabajo final de la clase leguajes de programación d
 ## main
 
 ## service
+<ul><h3> JPAUsers </h3></ul>
 
+<ul>
+  Interfaz que pertenece al paquete service y contiene los métodos abtractos(CRUD) que se implementan en la clase JPAUsersImpl
+</ul>
+<ul><h3> JPAUsersImpl </h3></ul>
+
+* ### la clase JPAUsersImpl pertenece al paquete Service e implementa los metodos CRUD del sistema
+  + #### create
+  	es un metodo de tipo void que obtiene los datos ingresados, los divide, los guarda en un nuevo objeto de tipo usuario y los agrega a la lista de usaurios
+  + #### UpdateById 
+  	es un metodo de tipo void que recibe un numero de identificacion(Id) el cual va a buscar en la lista de usuarios hasta encontrar un usuario con id igual a el ingresado, si lo encuentra pide mas datos, para poder reemplazar los datos "viejos" por los que recibirá, todo separado por comas 
+			
+			Ejemplo: juan,juanito@gmail.com,3024042021
+	tambien valida si se ingresaron mas o menos datos de los necesarios, si se ingresaron una cantidad erronea de datos (la correcta es 3) no se hace el cambio y se imprime un mensaje de error, si se ingresó la cantidad correcta de datos se hace el cambio y se imprimen los nuevos datos del usuario en formato de tabla, en caso de no encontrarse el usuario no se hace nada.
+  + #### deleteById 
+  	es un metodo de tipo void que recibe un numero de identificacion(Id) el cual va a buscar en la lista de usuarios hasta encontrar un usuario con id igual a el ingresado, si lo encuentra entonces la variable booleana "encontrado" que al inicio es falsa se vuelve verdadera y se elimina el usuario de la lista de usuarios, si no encontramos en usuario, o lo que es lo mismo, al finalizar el metodo la variable "encontrado" sigue siendo falsa como al inicio se lanza un mensaje de error "No se ha encontrado el usuario con id "+ la id del usuario
+  + findById 
+  tambien es void y recibe un Id, el cual usa para encontrar un usaurio en la lista de usuarios y luego imprimirlo
+  + printUsers 
+  imprime todos los usuarios en la lista de usuarios y les da un formato de tipo tabla
+	
+	| nombre | email        | numero    |
+	|--------|--------------|-----------|
+	| pepe   | p@gmail.com  | 3024566767|
+	| sofia  | sof@gmail.com| 3051234509|
+
+  
 ## controller
 
 ## customer
+<ul><h3> ClienteHTTP</h3></ul>
+<ul> pertenece al paquete customer y contiene cuatro atributos tipo String: "url", "headers","method","body"</ul>
 
 ## model
 <ul><h3> User</h3></ul>  
