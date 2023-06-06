@@ -31,7 +31,33 @@ proyecto desarrollado como trabajo final de la clase leguajes de programación d
 <ul><img src="gif/función6.gif" alt="programa ejecutando la sexta función" width=800></ul>
 
 ## main
+<ul>la clase main es la clase principal, tiene 4 metodos</ul>
+### metodos
+* #### validarUrl
+el metodo validarUrl es un metodo booleano su función es asegurarse de que las urls recibidas sean correctas, para realizar esta función recibe un strign que será la url y luego lo divide
 
+	ejemplo de entrada: http://localhost:8080/api/users
+el string de entrada se divide en tres partes, usando los dos puntos como criterio de divición(":") y guarda el resultado en "DatosArr[]", después divide los datos que quedaron en la tercera celda del array, esta vez su criterio de división es ("/") 
+	
+	DatosArr en posicion 2: 8080/api/users
+ahora pasamos a evaluar si el contenido de las celdas coincide con una entrada valida, para hacer la comparación se usa equals, que regresa verdadero si los elementos comparados son iguales y falso si son diferentes, en caso de que algun dato no sea igual al que deberia entrar entonces retorna falso,en cambio, si la entrada es correcta imprime el mensaje "url validada correctamente" y retorna verdadero
+
+* #### menu
+El metodo menú es void y lo unico que hace es imprimir el menú, que consiste en 6 opciones
+1. leer usuarios
+2. encontrar un usuario
+3. crear un usuario
+4. editar información de un usuario
+5. eliminar usuario
+6. salir
+
+* #### elegir
+el metodo elegir es un metodo de tipo booleano y un menú interactivo, que según lo que ingreses hace una cosa u otra, está hecho alrededor de un switch que recibe las opciones del 1 al 6 ofrecidas por el metodo menú y según la opción elegida le manda una petición al servidor, como una de las opciones es salir, retorna falso en la opcion 6 y verdadero de no entrar en ella, esto se usa en el metodo main para salir del while que ejecuta el programa 
+* #### main
+el metodo main tiene la variable ejecucion de tipo booleano que inicia verdadera y sirve manterner ejecutando el programa hasta que el usuario ingrese la opcion 6 que es salir, 
+el while que está en el main recibe como parametro a la variable ejecucion, en caso de que ejecucion sea verdadera se llama a los metodos menu y elegir
+
+para no tener una lista de usurios vacia al inicio se envian tres peticiones al servidor antes de abrir el menú, donde se crean 3 nuevos usuarios  
 ## service
 <ul><h3> JPAUsers </h3></ul>
 
