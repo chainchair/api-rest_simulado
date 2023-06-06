@@ -32,6 +32,7 @@ proyecto desarrollado como trabajo final de la clase leguajes de programación d
 
 ## main
 <ul>la clase main es la clase principal, tiene 4 metodos</ul>
+
 ### metodos
 * #### validarUrl
 el metodo validarUrl es un metodo booleano su función es asegurarse de que las urls recibidas sean correctas, para realizar esta función recibe un strign que será la url y luego lo divide
@@ -66,7 +67,7 @@ para no tener una lista de usurios vacia al inicio se envian tres peticiones al 
 </ul>
 <ul><h3> JPAUsersImpl </h3></ul>
 
-* ### la clase JPAUsersImpl pertenece al paquete Service e implementa los metodos CRUD del sistema
+la clase JPAUsersImpl pertenece al paquete Service e implementa los metodos CRUD del sistema
   + #### create
   	es un metodo de tipo void que obtiene los datos ingresados, los divide, los guarda en un nuevo objeto de tipo usuario y los agrega a la lista de usaurios
   + #### UpdateById 
