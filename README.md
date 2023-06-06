@@ -62,6 +62,21 @@ proyecto desarrollado como trabajo final de la clase leguajes de programación d
 
   
 ## controller
+<ul><h3> server </h3></ul>
+<ul>
+la clase server pertenece al paquete controller y es la que simula el funcionamiento del servidor, tiene en sus atributos de tipo string los siguientes: method, url, versionprotocol, headers, body y de tipo int tiene el Id. sus metodos en general llaman a una función de la clase JPAimpl y dan una respuesta del servidor, los metodos de la clase son:
+</ul> 
+
+* #### getUsersById
+	obtiene e imprime todos los usuarios ademas de la respuesta del servidor 
+* #### getUsersById
+	obtiene e imprime un solo usuario(si es encontrado) y la respuesta del servidor
+* #### PostUser
+	crea un nuevo usuario e imprime la respuesta del servidor
+* #### DeleteById
+	eliminar usuario segun su numero de identificacion e imprime la respuesta del servidor
+* #### PutUserById
+	cambia los datos de un usuario si el numero recibido coincide con su numero de identificacion e imprime la respuesta del servidor
 
 ## customer
 <ul><h3> ClienteHTTP</h3></ul>
