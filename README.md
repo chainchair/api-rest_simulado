@@ -77,7 +77,8 @@ la clase server pertenece al paquete controller y es la que simula el funcionami
 	eliminar usuario segun su numero de identificacion e imprime la respuesta del servidor
 * #### PutUserById
 	cambia los datos de un usuario si el numero recibido coincide con su numero de identificacion e imprime la respuesta del servidor
-
+* #### toString
+	metodo para mostrar la representacion en string del objeto 
 ## customer
 <ul><h3> ClienteHTTP</h3></ul>
 <ul> pertenece al paquete customer y contiene cuatro atributos tipo String: "url", "headers","method","body"</ul>
