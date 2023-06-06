@@ -50,10 +50,10 @@ proyecto desarrollado como trabajo final de la clase leguajes de programación d
 	tambien valida si se ingresaron mas o menos datos de los necesarios, si se ingresaron una cantidad erronea de datos (la correcta es 3) no se hace el cambio y se imprime un mensaje de error, si se ingresó la cantidad correcta de datos se hace el cambio y se imprimen los nuevos datos del usuario en formato de tabla, en caso de no encontrarse el usuario no se hace nada.
   + #### deleteById 
   	es un metodo de tipo void que recibe un numero de identificacion(Id) el cual va a buscar en la lista de usuarios hasta encontrar un usuario con id igual a el ingresado, si lo encuentra entonces la variable booleana "encontrado" que al inicio es falsa se vuelve verdadera y se elimina el usuario de la lista de usuarios, si no encontramos en usuario, o lo que es lo mismo, al finalizar el metodo la variable "encontrado" sigue siendo falsa como al inicio se lanza un mensaje de error "No se ha encontrado el usuario con id "+ la id del usuario
-  + findById 
-  tambien es void y recibe un Id, el cual usa para encontrar un usaurio en la lista de usuarios y luego imprimirlo
-  + printUsers 
-  imprime todos los usuarios en la lista de usuarios y les da un formato de tipo tabla
+  + #### findById 
+	tambien es void y recibe un Id, el cual usa para encontrar un usaurio en la lista de usuarios y luego imprimirlo
+  + #### printUsers 
+	imprime todos los usuarios en la lista de usuarios y les da un formato de tipo tabla
 	
 	| nombre | email        | numero    |
 	|--------|--------------|-----------|
